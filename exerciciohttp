@@ -1,0 +1,48 @@
+1) O que são métodos HTTP?
+R: HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam
+ver os conteúdos e dados que nele existem. A sigla vem do inglês Hypertext Transfer Protocol.
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+R: GET, POST, PUT, DELETE, TRACE, OPTIONS, PATCH, CONNECT.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles?
+R: GET - Essa é a mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: 
+que pode ser um arquivo html, xml, json, etc.
+PUT - Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. 
+Se não existir, pode ser criado.
+
+4) O que são requisições HTTP? Quais os tipos?
+R:Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Suas linhas continham elementos:
+Um verbo ou nome, ou o alvo da requisição, normalmente um URL, ou o caminho absoluto do protocolo. Os tipos são: GET, POST, HEAD, e OPTIONS, etc.
+
+5) Como funciona uma requisição?
+R: Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Suas linhas iniciais contêm três elementos: 
+Um método HTTP, um verbo (como GET , PUT ou POST ) ou um nome (como HEAD ou OPTIONS ), que descrevem a ação a ser executada.
+
+6) O que é o método GET?
+R: GET, Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc.
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+R: O HTTPS (Hyper Text Transfer Protocol Secure), que insere uma camada de proteção na transmissão de dados entre seu computador e o servidor. Em sites com 
+endereço HTTPS, a comunicação é criptografada, aumentando significativamente a segurança dos dados. É como se cliente e servidor conversassem uma língua que 
+só as duas entendessem, dificultando a interceptação das informações. Para saber se está navegando em um site com criptografia, basta verificar a barra de endereços, 
+na qual será possível identificar as letras HTTPS e, geralmente, um símbolo de cadeado que denota segurança. 
+Além disso, o usuário deverá ver uma bandeira com o nome do site, já que a conexão segura também identifica páginas na Internet por meio de seu certificado.
+
+8) Quais os principais métodos de uma requisição REST?
+R: GET, POST, PUT e DELETE só que podem requisitadas de forma diferente.
+
+9) Qual a diferença entre IPv4 e IPv6?
+R: O IPv6 possui recursos de segurança avançados já integrados, como é o caso do IPSec. O mesmo sistema pode ser usado no IPv4, mas precisa ser ativado diretamente 
+no provedor de Internet. Os dispositivos atuais operam com os dois protocolos ao mesmo tempo: um IPv4 fornecido pelo provedor e um IPv6 único gerado na própria máquina. 
+Isso significa que não é necessário interferir nas configurações relacionadas a esse sistema. Na prática, o IPv6 sacrifica velocidade por maior segurança, mas essa 
+perda é tão minúscula que não interfere no dia a dia.
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+R: HTTP: é uma camada de aplicação, usada pelos programas para enviar e receber dados de outros programas pela própria internet.
+TCP: é uma camada de transporte, Para transporte de arquivos recebidos da camada anterior. Aqui acontece a organização e a transformação deles em pacotes menores, que serão enviados à rede.
+IP: é uma camada de rede, Os arquivos empacotados na camada anterior são recebidos e anexados ao IP da máquina que envia e que recebe os dados. Daqui, são enviados pela internet usando a próxima camada.
+UDP: é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários.
+SMTP: a mensagem sai da máquina do cliente e, depois de ter um ou mais destinatários determinados, é autenticada e enviada para o servidor. Lá, os destinatários recebem as mensagens enviadas para o servidor, 
+que são codificadas e recebidas pelo protocolo POP3.
+FTP:Ele surgiu antes mesmo do padrão TCP/IP, que é a base das conexões de internet. E é o modo mais simples de transferir dados entre duas máquinas pela rede.  
